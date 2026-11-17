@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-BR" id="pagina">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Equipe | Passaporte</title>
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<header>
+<div class="topo">
+<a class="marca" href="./index.html"><img src="img/logo.svg" alt="Logo do Passaporte" width="44" height="44"><span>Passaporte</span></a>
+<nav>
+<ul>
+<li><a href="index.html">Início</a></li>
+<li><a href="solucao.html">Solução</a></li>
+<li><a href="impacto.html">Impacto</a></li>
+<li><a class="ativo" href="equipe.html">Equipe</a></li>
+</ul>
+</nav>
+<div class="acess">
+<button type="button" id="btn-menos" title="Diminuir a fonte">A-</button>
+<button type="button" id="btn-mais" title="Aumentar a fonte">A+</button>
+<button type="button" id="btn-contraste">Alto contraste: desligado</button>
+</div>
+</div>
+</header>
+<main id="conteudo">
+<h1>Equipe</h1>
+<p>Projeto da Global Solution 2026/2 (CitizenTech), FIAP, Engenharia de Software, turma 1ESOR. Grupo Passaporte.</p>
+<h2>Integrantes</h2>
+<ul>
+<li>Victor Jansen Elvira</li>
+<li>Fabrício de Bittencourt</li>
+<li>Felipe Souza Rodrigues</li>
+<li>Gustavo Paço Simões</li>
+</ul>
+
+<section>
+<h2>Quero levar o Passaporte para a minha escola</h2>
+<form id="form-contato">
+<label for="nome">Nome</label>
+<input type="text" id="nome" name="nome">
+<p class="campo-erro" id="erro-nome"></p>
+<label for="email">E-mail</label>
+<input type="text" id="email" name="email">
+<p class="campo-erro" id="erro-email"></p>
+<label for="escola">Escola ou rede de ensino</label>
+<input type="text" id="escola" name="escola">
+<p class="campo-erro" id="erro-escola"></p>
+<label for="papel">Sua função</label>
+<select id="papel" name="papel">
+<option value="">Escolha uma opção</option>
+<option>Professor(a)</option>
+<option>Gestor(a)</option>
+<option>Voluntário(a)</option>
+<option>Outra</option>
+</select>
+<p class="campo-erro" id="erro-papel"></p>
+<label for="mensagem">Mensagem</label>
+<textarea id="mensagem" name="mensagem" rows="4"></textarea>
+<p class="campo-erro" id="erro-mensagem"></p>
+<button type="button" class="botao" id="enviar">Enviar interesse</button>
+</form>
+<div id="status-form"></div>
+</section>
+</main>
+<footer>
+<p>Global Solution 2026/2 · CitizenTech · FIAP</p>
+</footer>
+<script src="js/acessibilidade.js"></script>
+<script src="js/formulario.js"></script>
+</body>
+</html>

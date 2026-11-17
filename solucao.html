@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR" id="pagina">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solução | Passaporte</title>
+<link rel="icon" href="img/logo.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+<header>
+<div class="topo">
+<a class="marca" href="./index.html"><img src="img/logo.svg" alt="Logo do Passaporte" width="44" height="44"><span>Passaporte</span></a>
+<nav>
+<ul>
+<li><a href="index.html">Início</a></li>
+<li><a class="ativo" href="solucao.html">Solução</a></li>
+<li><a href="impacto.html">Impacto</a></li>
+<li><a href="equipe.html">Equipe</a></li>
+</ul>
+</nav>
+<div class="acess">
+<button type="button" id="btn-menos" title="Diminuir a fonte">A-</button>
+<button type="button" id="btn-mais" title="Aumentar a fonte">A+</button>
+<button type="button" id="btn-contraste">Alto contraste: desligado</button>
+</div>
+</div>
+</header>
+<main id="conteudo">
+<h1>A solução</h1>
+<p>O Passaporte ensina português pelas situações reais da vida escolar e do bairro, em vez de lições soltas de idioma. Não há ranking nem perda de pontos ao errar.</p>
+
+<h2>Como funciona</h2>
+<ol>
+<li>O aluno escolhe um lugar no mapa do bairro: escola, padaria, mercado, posto de saúde ou ônibus.</li>
+<li>Resolve uma situação escolhendo a frase certa em português.</li>
+<li>Ganha um carimbo no passaporte e acompanha o progresso.</li>
+</ol>
+<p>A dupla de troca com um colega brasileiro e a meta coletiva da turma ficam para as próximas versões.</p>
+
+<section>
+<h2>Teste o Passaporte</h2>
+<p>Escolha o idioma da interface, visite um lugar do bairro e resolva as situações. As frases de resposta são sempre em português.</p>
+<div id="idiomas"></div>
+<h3 id="titulo-mapa">Mapa do bairro</h3>
+<div id="mapa" class="mapa"></div>
+<div id="painel" class="cartao"></div>
+<h3 id="titulo-passaporte">Seu passaporte</h3>
+<div id="carimbos" class="carimbos"></div>
+<p id="progresso"></p>
+<button type="button" class="botao sec" id="reiniciar">Recomeçar</button>
+</section>
+
+<h2>Tecnologias</h2>
+<p>HTML semântico, CSS (flexbox, grid e media queries) e JavaScript puro: as missões ficam em um array de objetos e a página é montada pelo DOM. O site usa textos curtos, imagens leves e nenhuma biblioteca externa, para funcionar em celulares simples.</p>
+</main>
+<footer>
+<p>Global Solution 2026/2 · CitizenTech · FIAP</p>
+</footer>
+<script src="js/acessibilidade.js"></script>
+<script src="js/simulacao.js"></script>
+</body>
+</html>
