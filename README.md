@@ -13,7 +13,7 @@ O site tem 4 páginas: Início (cidadão, problema e dados), Solução (simulaç
 ## Links
 
 - Site publicado: https://torsenira.github.io/passaporte/
-- Vídeo pitch: [colar aqui o link do vídeo]
+- Vídeo pitch: https://youtu.be/Er-YbHYp4Ds
 
 ## Integrantes
 
