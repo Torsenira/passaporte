@@ -46,4 +46,4 @@ HTML, CSS e JavaScript puros, sem frameworks ou bibliotecas.
   - sugestões de tema e de estrutura do documento de problema, público-alvo e solução;
   - criação do logo (SVG) e rascunho do código HTML, CSS e JavaScript do site, ajustado ao conteúdo visto nas aulas;
   - testes simples do código e explicação de erros.
-- Revisão pelo grupo: [descrever o que o grupo leu, testou e alterou].
+- Revisão pelo grupo: toda a parte textual e de conteúdo foi revisado para ter certeza que as informações realmente existem, além do código que também foi revisitado e dos testes manuais feitos por todos do grupo.
